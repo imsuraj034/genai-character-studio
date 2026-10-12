@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local session data (characters you generated, saved Bible edits)
+data/*.json
+
+# temporary render folders
+docs/_render/
+docs/_aai_render/

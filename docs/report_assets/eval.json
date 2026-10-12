@@ -1,0 +1,54 @@
+{
+ "rows": [
+  {
+   "temperature": 0.3,
+   "runs": 60,
+   "drafts_with_violations_pct": 0,
+   "avg_draft_score": 100.0,
+   "avg_final_score": 100.0,
+   "final_with_errors_pct": 0,
+   "avg_repair_rounds": 0.0,
+   "cost_per_char_usd": 0.0066,
+   "large_model_cost_per_char_usd": 0.03299
+  },
+  {
+   "temperature": 0.6,
+   "runs": 60,
+   "drafts_with_violations_pct": 63,
+   "avg_draft_score": 92.1,
+   "avg_final_score": 100.0,
+   "final_with_errors_pct": 0,
+   "avg_repair_rounds": 0.63,
+   "cost_per_char_usd": 0.00705,
+   "large_model_cost_per_char_usd": 0.05695
+  },
+  {
+   "temperature": 0.8,
+   "runs": 60,
+   "drafts_with_violations_pct": 98,
+   "avg_draft_score": 74.0,
+   "avg_final_score": 100.0,
+   "final_with_errors_pct": 0,
+   "avg_repair_rounds": 0.98,
+   "cost_per_char_usd": 0.00739,
+   "large_model_cost_per_char_usd": 0.07127
+  },
+  {
+   "temperature": 1.0,
+   "runs": 60,
+   "drafts_with_violations_pct": 100,
+   "avg_draft_score": 54.7,
+   "avg_final_score": 100.0,
+   "final_with_errors_pct": 0,
+   "avg_repair_rounds": 1.0,
+   "cost_per_char_usd": 0.00754,
+   "large_model_cost_per_char_usd": 0.07315
+  }
+ ],
+ "guard": {
+  "unsafe_blocked": "10/10",
+  "safe_false_blocks": "0/10",
+  "copycat_names_flagged": "10/10",
+  "original_names_false_flags": "1/132"
+ }
+}

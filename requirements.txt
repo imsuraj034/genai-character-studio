@@ -1,0 +1,6 @@
+streamlit>=1.40
+pandas
+fpdf2>=2.7
+requests
+python-pptx
+pytest
